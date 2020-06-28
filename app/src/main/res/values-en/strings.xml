@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="LABEL_minhaComanda">My Command</string>
+    <string name="FIELD_addProduto">Add Product</string>
+    <string name="FIELD_gerenciarProduto">Manage Product</string>
+    <string name="FIELD_btnLimparLista">Clear List</string>
+    <string name="FIELD_valor">Valor</string>
+    <string name="FIELD_qntd">Amount</string>
+    <string name="FIELD_produto">Product</string>
+    <string name="RE_btnEnviar">Send</string>
+    <string name="FIELD_nomeProduto">Product Name</string>
+    <string name="LABEL_addProduto">Adding Product</string>
+    <string name="RE_listaProdutos">Product List</string>
+    <string name="FIELD_MESSAGE_ativo">Active</string>
+    <string name="HINT_nomeProduto">Enter the Product Name</string>
+    <string name="HINT_valor">Enter the Product Value</string>
+    <string name="APP_atividadeAvaliativa">Evaluative Activity</string>
+    <string name="LABEL_gerenciando">Managing Products</string>
+    <string name="RE_btnVoltar">Go Back</string>
+    <string name="MESSAGE_voltando">Returning</string>
+    <string name="MESSAGE_builderTitle">Delete Product</string>
+    <string name="MESSAGE_ExcluirProduto">Do you Really Want to Delete: \'%1$s\', From this List?</string>
+    <string name="MESSAGE_menosUM">-1</string>
+    <string name="MESSAGE_maisUM">+1</string>
+    <string name="MESSAGE_fechar">Close</string>
+    <string name="MESSAGE_sim">Yes</string>
+    <string name="SUCCESS_excluido">Deleted: %1$s</string>
+    <string name="MESSAGE_editar">Edit</string>
+    <string name="ERROR_popularForm">Error Populating the Form</string>
+    <string name="ERROR_cadastrar">Error when Register: %1$s</string>
+    <string name="SUCCESS_cadastro">Registred: %1$s</string>
+    <string name="ERROR_excluir">Delete Error: %1$s</string>
+    <string name="ERROR_alterar">Error Changing: %1$s</string>
+    <string name="SUCCESS_alterado">Altered: %1$s</string>
+    <string name="ERROR_digitado">Error validating this field</string>
+    <string name="FIELD_MESSAGE_inativo">Inactive</string>
+    <string name="MESSAGE_alertBuilder">Select Products and Quantity Correctly.</string>
+    <string name="MESSAGE_atencao">Warring</string>
+    <string name="FIELD_lblTotal">Total: %1$s</string>
+</resources>

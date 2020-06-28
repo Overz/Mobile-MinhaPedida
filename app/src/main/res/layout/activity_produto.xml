@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.ProdutoActivity">
+
+    <TextView
+        style="@style/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LABEL_gerenciando" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FIELD_produto" />
+
+    <EditText
+        android:id="@+id/editNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/HINT_nomeProduto"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FIELD_valor" />
+
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/HINT_valor"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/cbAtivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:checked="true"
+        android:text="@string/FIELD_MESSAGE_ativo"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVoltar"
+            style="@style/btnRed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/RE_btnVoltar" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            style="@style/btnGreen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/RE_btnEnviar" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvGerenciamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

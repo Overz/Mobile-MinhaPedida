@@ -1,0 +1,56 @@
+<resources>
+
+    <!--  App  -->
+    <string name="APP_atividadeAvaliativa">Atividade Avaliativa</string>
+    <!--  Label da Tela  -->
+    <string name="LABEL_minhaComanda">Minha Comanda</string>
+    <string name="LABEL_addProduto">Adicionar Produto</string>
+    <string name="LABEL_gerenciando">Gerenciando Produtos</string>
+
+    <!--  Reutilizaveis  -->
+    <string name="RE_listaProdutos">Lista de Produtos</string>
+    <string name="RE_btnVoltar">Voltar</string>
+    <string name="RE_btnEnviar">Enviar</string>
+
+    <!--  Comanda  -->
+    <string name="FIELD_addProduto">Adicionar Produto</string>
+    <string name="FIELD_btnLimparLista">Limpar Lista</string>
+
+    <!--  Pedidos  -->
+    <string name="FIELD_produto">Produto</string>
+    <string name="FIELD_qntd">Quantidade</string>
+
+    <!--  Produtos  -->
+    <string name="FIELD_gerenciarProduto">Gerenciar Produto</string>
+    <string name="FIELD_nomeProduto">Nome do Produto</string>
+    <string name="FIELD_valor">Valor</string>
+    <string name="FIELD_MESSAGE_ativo">Ativo</string>
+    <string name="FIELD_MESSAGE_inativo">Inativo</string>
+
+
+    <!--  Mensagens  -->
+    <string name="MESSAGE_alertBuilder">Selecione os Produtos e a Quantidade Corretamente</string>
+    <string name="MESSAGE_atencao">Atenção</string>
+    <string name="MESSAGE_ExcluirProduto">Deseja Realmente excluir: \'%1$s\', Desta Lista?</string>
+    <string name="MESSAGE_menosUM">-1</string>
+    <string name="MESSAGE_maisUM">+1</string>
+    <string name="MESSAGE_fechar">Fechar</string>
+    <string name="MESSAGE_sim">Sim</string>
+    <string name="MESSAGE_voltando">Voltando</string>
+    <string name="MESSAGE_builderTitle">Excluir Produto</string>
+    <string name="MESSAGE_editar">Editar</string>
+    <string name="ERROR_popularForm">Erro ao Popular o Formulario</string>
+    <string name="ERROR_cadastrar">Erro ao Cadastrar: %1$s</string>
+    <string name="ERROR_excluir">Erro ao Excluir: %1$s</string>
+    <string name="ERROR_alterar">Erro ao Alterar: %1$s</string>
+    <string name="ERROR_digitado">Erro ao Validar este Campo</string>
+    <string name="SUCCESS_cadastro">Cadastrado: %1$s</string>
+    <string name="SUCCESS_alterado">Alterado: %1$s</string>
+    <string name="SUCCESS_excluido">Excluido: %1$s</string>
+
+    <!--  hints  -->
+    <string name="HINT_nomeProduto">Digite o Nome do Produto</string>
+    <string name="HINT_valor">Digite o Valor do Produto</string>
+    <string name="FIELD_lblTotal">Total: %1$s</string>
+
+</resources>
